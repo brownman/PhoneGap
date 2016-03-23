@@ -31,7 +31,7 @@
 		$scope.trackEvent = function (eventName, eventValue) {	
 			
 			eventName = "af_add_to_cart";
-			eventValue = { "af_content_id": "id1234", "af_revenue": 2, "af_content_type", "type 1" };
+			eventValue = { "af_content_id": "id1234", "af_revenue": 2, "af_content_type": "type 1" };
 			window.plugins.appsFlyer.trackEvent(eventName, eventValue);
 		}
 	}]);
